@@ -63,6 +63,7 @@ header {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 33%;
+    gap: 5px;
     justify-content: center;
     align-content: center;
     margin-top: 10%;
@@ -72,6 +73,8 @@ header {
     text-align: center;
     margin: 0 18px;
     padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .product img {
